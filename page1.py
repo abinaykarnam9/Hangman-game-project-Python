@@ -17,7 +17,6 @@ pp=Entry(frame,bg="black")
 topframe=Frame(root)
 topframe.pack()
 
-
 root.geometry('400x400+400+400')
 l=Label(root,text="PLAYING OPTIONS", font=("bold"),width=35)
 b0=Button(root,text="SINGLE PLAYER",font=("bold"),width=25,height=5,bg="gold",command=g,cursor='man',relief=RAISED)
